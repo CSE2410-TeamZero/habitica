@@ -1,7 +1,7 @@
 <template lang="pug">
   b-modal#private-message(title="Message", size='md', :hide-footer="true")
     .content
-      textarea.form-control(v-model='privateMessage')
+      textarea.form-control(v-model='privateMessage', @keyup.ctrl.enter="sendPrivateMessage()")
       button.btn.btn-primary(@click='sendPrivateMessage()', :disabled='loading') Send
 </template>
 

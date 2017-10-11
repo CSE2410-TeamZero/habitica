@@ -100,7 +100,7 @@ div.item-with-icon.item-notifications.dropdown
 
   .user-dropdown {
     max-height: 350px;
-    overflow: scroll;
+    overflow: visible;
   }
 
   /* @TODO: Move to shared css */

@@ -42,13 +42,8 @@
 
         // @TODO: Implement new message header here when we fix the above
 
-<<<<<<< HEAD
         .new-message-row(v-if='selectedConversation')
           textarea(v-model='newMessage', @keyup.ctrl.enter="sendPrivateMessage()")
-=======
-        .new-message-row(v-if='selectedConversation.key')
-          textarea(v-model='newMessage')
->>>>>>> upstream/develop
           button.btn.btn-secondary(@click='sendPrivateMessage()') Send
 </template>
 

@@ -53,9 +53,14 @@
     @include centeredModal();
 
     .content {
-      text-align: center;
+      /*text-align: center;
       max-height: 80vh;
-      overflow-y: visible;
+      overflow-y: visible;*/
+	  
+	  text-align: center;
+      max-height: 90vh;
+      overflow-x: auto;
+      height: -webkit-fill-available;
     }
 
     .item-wrapper {
